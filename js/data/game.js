@@ -1,5 +1,5 @@
 var game = {
-    universes: [new Universe("Universe", new Decimal(8.37e26), new Decimal(1)),
+    universes: [new Universe("Universe", new Decimal(1), new Decimal(1)),
         new Universe("Multiverse", new Decimal(4.73e294), new Decimal(2)),
         new Universe("Megaverse", new Decimal("7.64e1976"), new Decimal(25)),
         new Universe("Gigaverse", new Decimal("8.02e7435"), new Decimal(5e4)),
