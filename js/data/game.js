@@ -11,7 +11,7 @@ var game = {
         new Universe("Omniverse", new Decimal("1e1000000"), new Decimal(1e31))],
     universe: new Universe("Universe", new Decimal(8.37e26), new Decimal(1)),
     currentUniverseLevel: 0,
-    highestUniverseLevel: 0,
+    highestUniverseLevel: 8,
     rhoParticles: new Decimal(0),
     shrinkers: [],
     resources: {},
