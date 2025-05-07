@@ -12,7 +12,7 @@ var game = {
     universe: new Universe("Universe", new Decimal(1), new Decimal(1)),
     currentUniverseLevel: 0,
     highestUniverseLevel: 8,
-    rhoParticles: new Decimal(0),
+    rhoParticles: new Decimal(6000000),
     shrinkers: [],
     resources: {},
     rhoUpgrades: {
@@ -115,4 +115,5 @@ var game = {
         maxAllLayers: true,
         exportString: "Exported Save will appear here..."
     }
+    
 };
