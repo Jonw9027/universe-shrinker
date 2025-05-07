@@ -9,7 +9,7 @@ var game = {
         new Universe("Zettaverse", new Decimal("6.57e264862"), new Decimal(1e22)),
         new Universe("Yottaverse", new Decimal("4.52e410420"), new Decimal(4e26)),
         new Universe("Omniverse", new Decimal("1e1000000"), new Decimal(1e31))],
-    universe: new Universe("Universe", new Decimal(8.37e26), new Decimal(1)),
+    universe: new Universe("Universe", new Decimal(1), new Decimal(1)),
     currentUniverseLevel: 0,
     highestUniverseLevel: 8,
     rhoParticles: new Decimal(0),
